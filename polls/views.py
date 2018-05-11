@@ -92,6 +92,7 @@ def CreateSong(request, album_id):
         'album': album,
         'form': form,
         'album':album,
+        'album': album,
 
     }
     return render(request, 'music/song_form.html', context)
